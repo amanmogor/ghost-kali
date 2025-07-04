@@ -1,0 +1,11 @@
+{
+  "name": "amanmogor",
+  "image": "kalilinux/kali-rolling",
+  "postCreateCommand": "apt update && apt install -y curl tor dnscrypt-proxy nodejs npm git && git clone https://github.com/YOUR_USERNAME/ghost-browser-bash ~/.ghost && chmod +x ~/.ghost/*.sh",
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": []
+    }
+  }
+}
